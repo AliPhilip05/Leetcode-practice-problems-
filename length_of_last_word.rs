@@ -49,3 +49,17 @@ impl Solution {
         length
     }
 }
+
+/* Adjusted better code after scrolling through notebook 
+
+impl Solution {
+    pub fn length_of_last_word(s: String) -> i32 {
+        s.split_whitespace()
+            .rev()
+            .next()
+            .unwrap()
+            .len() as i32
+    }
+}
+
+*/
